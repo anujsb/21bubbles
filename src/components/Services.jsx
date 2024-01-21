@@ -57,8 +57,8 @@ export const Services = () => {
   };
   return (
     <section className="h-screen p-4 md:p-8">
-      <div className=" text-black grid grid-flow-col lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1" ref={ref}>
-      <motion.div
+      <div className=" justify-center items-center text-black grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2" ref={ref}>
+        <motion.div
           variants={getVariantProperties(mouseXPosition, mouseYPosition)}
           className="circle title"
           animate={cursorVariant}
@@ -68,15 +68,15 @@ export const Services = () => {
           <h1></h1>
         </motion.div>
         <div>
-          <h1 className="my-32  text-7xl"
+          <h1 className="  text-7xl"
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}>
             what we provide
           </h1>
         </div>
-        <div className="mx-auto max-w-5xl"
-        onMouseEnter={projectEnter}
-        onMouseLeave={projectLeave}>
+        <div className=" my-20 mx-auto max-w-5xl"
+          onMouseEnter={projectEnter}
+          onMouseLeave={projectLeave}>
           <Link
             heading="web design"
             subheading="Learn what we do here"
@@ -108,6 +108,9 @@ export const Services = () => {
           href="#"
         /> */}
         </div>
+      </div>
+      <div className=''>  {/*work*/}
+
       </div>
     </section>
   );
@@ -218,6 +221,10 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
     </motion.a>
   );
 };
+
+
+
+
 
 export default Services;
 
