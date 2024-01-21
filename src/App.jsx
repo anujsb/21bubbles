@@ -6,6 +6,8 @@ import './App.css'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Info from './components/Info';
+import Services from './components/Services';
+import Testimonial from './components/Testimonial';
 
 function App() {
 
@@ -15,9 +17,9 @@ function App() {
       <Navbar />
       <Hero />
       <Info />
-      {/* <Services/> */}
+      <Services/>
       {/* <Info2 /> */}
-      {/* <Testimonial/> */}
+      <Testimonial/>
       {/* <Contact /> */}
       </div>
       

@@ -1,4 +1,3 @@
-// Hero.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useCursorVariants } from './canvas/CursorVariants';
@@ -26,7 +25,7 @@ const Hero = () => {
 
   return (
     <div className=''>
-      <div className="h-screen flex justify-center items-center" ref={ref}>
+      <div className="h-auto mt-32 mb-32 flex justify-center items-center" ref={ref}>
         <motion.div
           variants={getVariantProperties(mouseXPosition, mouseYPosition)}
           className="circle title"
@@ -41,7 +40,7 @@ const Hero = () => {
           className=""
         >
           <h1 
-            className="mx-10 title text-left lg:text-9xl md:text-9xl"
+            className="mx-10 title text-left lg:text-9xl md:text-9xl "
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >

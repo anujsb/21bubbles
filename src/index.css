@@ -31,6 +31,7 @@ a {
   color: #000000;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #565656;
 }
@@ -59,9 +60,11 @@ button {
   cursor: pointer;
   /* transition: border-color 0.25s; */
 }
+
 button:hover {
   /* border-color: #646cff; */
 }
+
 button:focus,
 button:focus-visible {
   /* outline: 4px auto -webkit-focus-ring-color; */
@@ -72,24 +75,28 @@ button:focus-visible {
     color: #213547;
     /* background-color: #ffffff; */
   }
+
   a:hover {
     /* color: #747bff; */
   }
+
   button {
     background-color: #f9f9f9;
   }
 }
+
 /* ----------------------------------------------------------------- */
 
 /* ================================================================================================================== */
 /* cursor */
 
-.title{
+.title {
   mix-blend-mode: difference;
   background-color: rgb(0, 0, 0);
   /* color: #434243; */
 }
 
+/* media query */
 
 .circle {
   position: fixed;
@@ -105,7 +112,94 @@ button:focus-visible {
   background-color: #1e91d6;
   border-radius: 200px;
   pointer-events: none;
-  color: #fff;
+  /* color: #fff; */
   text-align: center;
   font-size: 16px;
 }
+
+
+.overlay {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  width: 90%;
+  height: 90%;
+  /* background-color: rgba(0,0,0,.4); */
+  /* background-color: #000000cc; */
+}
+
+
+
+
+
+body.loading {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.loader .loader-inner .image-block {
+  position: absolute;
+  transform-origin: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader .loader-inner .image-block.image-1 {
+  width: 400px;
+  left: 16%;
+  bottom: 14%;
+}
+
+@media (max-width: $layout-breakpoint-xsmall) {
+  .loader .loader-inner .image-block.image-1 {
+    left: 4%;
+    bottom: 28%;
+  }
+}
+
+.loader .loader-inner .image-block.image-3 {
+  width: 300px;
+  right: 12%;
+  top: 8%;
+}
+
+@media (max-width: $layout-breakpoint-xsmall) {
+  .loader .loader-inner .image-block.image-3 {
+    top: 16%;
+    right: 4%;
+  }
+}
+
+.loader .loader-inner .image-block.image-4 {
+  max-width: 400px;
+  width: 40%;
+  right: 20%;
+  bottom: 10%;
+}
+
+@media (max-width: $layout-breakpoint-xsmall) {
+  .loader .loader-inner .image-block.image-4 {
+    right: 6%;
+    bottom: 32%;
+  }
+}
+
+.loader .loader-inner .image-block.image-5 {
+  width: 280px;
+  left: 14%;
+  top: 12%;
+}
+
+@media (max-width: $layout-breakpoint-xsmall) {
+  .loader .loader-inner .image-block.image-5 {
+    left: 6%;
+    top: 18%;
+  }
+}
+
+.loader .loader-inner .image-block img {
+  width: 100%;
+  object-fit: fill;
+}
+
