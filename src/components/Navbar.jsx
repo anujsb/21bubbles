@@ -96,8 +96,8 @@ const Navbar = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
           }}
         >
-          {/* <img src={'src/assets/Screenshot_2024-01-22_093702-rem (1).png'} alt="logo" className="logo" /> */}
-          <img src={'src/assets/Screenshot_2024-01-22_093702-rem.png'} alt="logo" className="logo" />
+          {/* <img src={'src/assets/21bubbles.png'} alt="logo" className="logo" /> */}
+          <img src={'src/assets/21bubbles-removebg-preview.png'} alt="logo" className="logo" />
         </Link>
 
         
