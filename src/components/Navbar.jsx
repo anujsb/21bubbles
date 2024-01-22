@@ -84,8 +84,8 @@ const Navbar = () => {
   return (
     <nav
     className={`${
-      active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-3'
-    } sm:px-4 lg:px-16 fixed top-0 w-full z-30`}
+      active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-0'
+    } sm:px-4 lg:px-0 fixed top-0 w-full z-30`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto  ">
         <Link
@@ -96,7 +96,8 @@ const Navbar = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
           }}
         >
-          {/* <img src={logo} alt="logo" className="logo" /> */}
+          {/* <img src={'src/assets/Screenshot_2024-01-22_093702-rem (1).png'} alt="logo" className="logo" /> */}
+          <img src={'src/assets/Screenshot_2024-01-22_093702-rem.png'} alt="logo" className="logo" />
         </Link>
 
         

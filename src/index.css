@@ -86,7 +86,14 @@ button:focus-visible {
 }
 
 /* ----------------------------------------------------------------- */
-
+.logo {
+  
+  width: 210px; 
+  height: 90px; 
+  display: block; 
+  /* margin: 10px; */
+  /* Add any other styling properties you need */
+}
 /* ================================================================================================================== */
 /* cursor */
 
@@ -202,4 +209,6 @@ body.loading {
   width: 100%;
   object-fit: fill;
 }
+
+/* work */
 

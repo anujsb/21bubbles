@@ -1,33 +1,4 @@
-// const Services = () => {
-//   return (
-//     <div className="h-screen">
-//       <div className="my-32 text-black grid grid-flow-col grid-cols-2">
-//         <div>
-//           <h1>
-//             what we provide-
-//           </h1>
-//         </div>
-//         <div>
-//           <h1>
-//             chatbots
-//           </h1>
-//           <h1>
-//             automations
-//           </h1>
-//           <h1>
-//             website
-//           </h1>
-//         </div>
 
-//       </div>
-
-//     </div>
-//   )
-// }
-
-
-// export default Services;
-// import { motion } from 'framer-motion';
 import { useCursorVariants } from './canvas/CursorVariants';
 import { useMousePosition } from './canvas/MousePosition';
 
@@ -56,7 +27,7 @@ export const Services = () => {
     setCursorVariant('default');
   };
   return (
-    <section className="h-screen p-4 md:p-8">
+    <section className="h-auto p-4 md:p-8">
       <div className=" justify-center items-center text-black grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2" ref={ref}>
         <motion.div
           variants={getVariantProperties(mouseXPosition, mouseYPosition)}
@@ -109,9 +80,17 @@ export const Services = () => {
         /> */}
         </div>
       </div>
-      <div className=''>  {/*work*/}
-
-      </div>
+      {/* <div className='bg-red-600'>  
+        <div>
+          <div className='grid grid-cols-3 gap-4 text-black'>
+            <div className='text-black'>anuj</div>
+            <div className='text-black'>2</div>
+            <div className='text-black'>3</div>
+            <div className='text-black col-span-2'>4</div>
+            <div className='text-black'>5</div>
+          </div>
+        </div>
+      </div> */}
     </section>
   );
 };
