@@ -8,6 +8,8 @@ import Hero from './components/Hero';
 import Info from './components/Info';
 import Services from './components/Services';
 import Testimonial from './components/Testimonial';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -16,11 +18,12 @@ function App() {
       <div className="scroll-smooth ">
       <Navbar />
       <Hero />
-      <Info />
-      <Services/>
+      {/* <Info /> */}
+      {/* <Services/> */}
       {/* <Info2 /> */}
-      <Testimonial/>
-      {/* <Contact /> */}
+      {/* <Testimonial/> */}
+      <Contact />
+      < Footer />
       </div>
       
       

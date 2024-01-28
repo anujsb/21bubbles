@@ -87,16 +87,15 @@ const Navbar = () => {
       active ? 'shadow-lg pt-0 backdrop-blur-md' : 'pt-0'
     } sm:px-4 lg:px-0 fixed top-0 w-full z-30`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto  ">
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto ">
         <Link
           to="/"
-          className="flex items-center gap-2 "
+          className="flex items-center gap-2"
           onClick={() => {
             setActive(false);
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
           }}
         >
-          {/* <img src={'src/assets/21bubbles.png'} alt="logo" className="logo" /> */}
           <img src={'src/assets/21bubbles-removebg-preview.png'} alt="logo" className="logo" />
         </Link>
 
@@ -116,16 +115,16 @@ const Navbar = () => {
         </ul> */}
 
 
-        <div className='flex items-center gap-2 '>
+        <div className='flex items-center gap-4 px-14'>
             <Link 
                 to="/Services"
                     >
-                <button>
+                <button className='text-2xl '>
                     Services
                 </button>
             </Link>
             <Link>
-                <button>
+                <button className='text-2xl'>
                     Contact
                 </button>
             </Link>
