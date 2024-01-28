@@ -51,7 +51,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="" ref={ref}>
+    <div className="shadow-inner" ref={ref}>
       <motion.div
         variants={getVariantProperties(mouseXPosition, mouseYPosition)}
         className="circle title"

@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-  /* border-color: #646cff; */
+  /* border-color: #64ff69; */
 }
 
 button:focus,
@@ -88,8 +88,8 @@ button:focus-visible {
 /* ----------------------------------------------------------------- */
 .logo {
   
-  width: 210px; 
-  height: 93px; 
+  width: 200px; 
+  height: 90px; 
   display: block; 
   /* margin: 10px; */
   /* Add any other styling properties you need */
