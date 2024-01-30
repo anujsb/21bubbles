@@ -3,7 +3,7 @@
 
 const Footer = () => {
   return (
-    <section className="py-10 bg-neutral-800 shadow-inner sm:pt-16 lg:pt-24">
+    <section className="py-10 bg-neutral-800 shadow-inner sm:pt-16 lg:pt-10 md:pt-10">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
@@ -665,7 +665,7 @@ const Footer = () => {
               Let's talk
             </p>
 
-            <form action="#" method="POST" className="mt-6">
+            <form action="#" method="POST" className="mt-6 content-center">
               <div>
                 <label htmlFor="email" className="sr-only">
                   Email
@@ -675,13 +675,13 @@ const Footer = () => {
                   name="email"
                   id="email"
                   placeholder="Enter your email"
-                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-[#F2F2F2] border border-gray-200 rounded-md focus:outline-none focus:border-zinc-600 caret-black"
+                  className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]"
                 />
               </div>
 
               <button
                 type="submit"
-                className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold hover:shadow-md hover:shadow-zinc-500 text-black transition-all duration-200 bg-[#F2F2F2] rounded-md hover:bg-slate-100 focus:bg-zinc-400 "
+                className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold hover:shadow-md hover:   text-[#F2F2F2] transition-all duration-200 bg-neutral-800 rounded-md border-[#F2F2F2] hover:bg-[#F2F2F2] hover:text-neutral-800 hover:border-neutral-800 focus:bg-zinc-400  border-b "
               >
                 Submit
               </button>
