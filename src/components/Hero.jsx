@@ -75,7 +75,7 @@ const Hero = () => {
             sometext
           </h1>
           <h1
-            className="md:mx-10 lg:mx-10 sm:mx-0 w-min title text-left lg:text-9xl md:text-9xl"
+            className="md:mx-10 lg:mx-10 sm:mx-0 title lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl"
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
