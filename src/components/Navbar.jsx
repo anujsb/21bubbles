@@ -86,6 +86,7 @@ const Navbar = () => {
       }  sm:px-4 md:px-0 lg:px-0 fixed top-0 w-full z-30`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl">
+      {/* <div className="flex min-w-max"> */}
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -113,7 +114,7 @@ const Navbar = () => {
           ))}
         </ul> */}
 
-        <div className="flex items-center gap-4 px-14">
+        <div className="flex items-center lg:gap-4 md:gap-4 sm:gap-0 md:px-14 lg:px-14 sm:px-0">
           <Link to="/Services">
             <button className="text-2xl ">Services</button>
           </Link>
