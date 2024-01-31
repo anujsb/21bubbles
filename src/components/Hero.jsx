@@ -64,9 +64,9 @@ const Hero = () => {
       <div className="">
         {" "}
         {/* useless */}
-        <div className=" lg:mx-20 md:mx-20 sm:mx-5 my-28">
+        <div className=" lg:mx-20 md:mx-20 sm:mx-5 my-28">{/* sometexts */}
           {" "}
-          {/* sometexts */}
+          
           <h1
             className=" title lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl "
             onMouseEnter={projectEnter}
@@ -82,9 +82,9 @@ const Hero = () => {
             <span ref={typedRef}></span>
           </h1>
         </div>
-        <div className="flex justify-end mx-20 my-10">
+        <div className="flex justify-end mx-20 my-10">{/* desc */}
           {" "}
-          {/* desc */}
+          
           <p
             className="title w-min text-right "
             onMouseEnter={projectEnter}
@@ -93,9 +93,9 @@ const Hero = () => {
             some deta dfghjk fghjk <nav>EWZRXCTVYBNJKMERDTFGYUI </nav>
           </p>
         </div>
-        <div className="m-5">
+        <div className="m-5">{/* about */}
           {" "}
-          {/* about */}
+          
           {/* <div className="overlay"></div> */}
           <video
             onMouseEnter={projectEnter}

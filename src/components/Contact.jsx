@@ -1,13 +1,13 @@
 const Contact = () => {
   return (
-    <div className="h-screen">
+    <div className="h-auto">
       <div className="">
         <div>
-          <h1 className="md:ml-10 lg:ml-10 sm:ml-0 text-black lg:text-8xl md:text-8xl sm:text-xl md:text-left lg:text-left sm:text-center ">
+          <h1 className="md:ml-10 lg:ml-10 sm:ml-0 my-10 text-black lg:text-8xl md:text-8xl sm:text-xl md:text-left lg:text-left sm:text-center ">
             21bubbles.web<nav>@gmail.com</nav>
           </h1>
         </div>
-        <div className="flex justify-end mx-20 my-10">
+        {/* <div className="flex justify-end mx-20 my-10">
           {" "}
           <form action="#" method="POST" className="mt-6 content-center">
             <div>
@@ -31,7 +31,7 @@ const Contact = () => {
               Submit
             </button>
           </form>
-        </div>
+        </div> */}
 
         {/* <div className=" flex items-center">
           <div className="w-1/2">
