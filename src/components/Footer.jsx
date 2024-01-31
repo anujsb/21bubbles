@@ -475,10 +475,17 @@ const Footer = () => {
             </svg> */}
             <h1 className="text-white">21bubbles</h1>
 
-            <p className="text-base leading-relaxed text-gray-200 mt-7">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-            </p>
+            <ul className="text-base leading-relaxed text-gray-200 mt-7">
+              <li>
+                +91 9021823841
+              </li>
+              <li>
+                anujsbhuyar@gmial.com
+              </li>
+              <li>
+                Anuj Bhuyar
+              </li>
+            </ul>
 
             <ul className="flex items-center space-x-3 mt-9">
               <li>
