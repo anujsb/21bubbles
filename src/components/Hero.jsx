@@ -64,11 +64,11 @@ const Hero = () => {
       <div className="">
         {" "}
         {/* useless */}
-        <div className=" md:mx-20 lg:mx-20 sm:mx-10 my-28">
+        <div className=" lg:mx-20 md:mx-20 sm:mx-5 my-28">
           {" "}
           {/* sometexts */}
           <h1
-            className=" title text-left lg:text-9xl md:text-9xl "
+            className=" title lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl "
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
