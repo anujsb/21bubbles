@@ -64,7 +64,7 @@ const Hero = () => {
       <div className="">
         {" "}
         {/* useless */}
-        <div className=" mx-20 my-28">
+        <div className=" md:mx-20 lg:mx-20 sm:mx-10 my-28">
           {" "}
           {/* sometexts */}
           <h1
