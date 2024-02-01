@@ -24,14 +24,14 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="justify-center items-center scroll-smooth">
+            <div className="justify-center items-center scroll-smooth w-full">
               <Navbar />
               <Hero />
               {/* <Info /> */}
               {/* <Services/> */}
               {/* <Info2 /> */}
               {/* <Testimonial/> */}
-              <Contact />
+              {/* <Contact path="/contact" /> */}
               <Footer />
             </div>
           }

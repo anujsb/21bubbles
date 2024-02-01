@@ -117,9 +117,9 @@ const Navbar = () => {
           <Link>
             <button className="text-2xl">Contact</button>
           </Link>
-          <Link to="/Services">
+          {/* <Link to="/Services">
             <button className="text-2xl ">Services</button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>

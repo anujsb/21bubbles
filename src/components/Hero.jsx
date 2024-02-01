@@ -64,9 +64,8 @@ const Hero = () => {
       <div className="">
         {" "}
         {/* useless */}
-        <div className=" lg:mx-20 md:mx-20 sm:mx-5 my-28">{/* sometexts */}
-          {" "}
-          
+        <div className=" lg:mx-20 md:mx-20 sm:mx-5 my-28">
+          {/* sometexts */}{" "}
           <h1
             className=" title lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl "
             onMouseEnter={projectEnter}
@@ -82,9 +81,8 @@ const Hero = () => {
             <span ref={typedRef}></span>
           </h1>
         </div>
-        <div className="flex justify-end mx-20 my-10">{/* desc */}
-          {" "}
-          
+        <div className="flex justify-end mx-20 my-10">
+          {/* desc */}{" "}
           <p
             className="title w-min text-right "
             onMouseEnter={projectEnter}
@@ -93,10 +91,8 @@ const Hero = () => {
             some deta dfghjk fghjk <nav>EWZRXCTVYBNJKMERDTFGYUI </nav>
           </p>
         </div>
-        <div className="m-5">{/* about */}
-          {" "}
-          
-          {/* <div className="overlay"></div> */}
+        <div className="m-5">
+          {/* about */} {/* <div className="overlay"></div> */}
           <video
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
@@ -143,6 +139,17 @@ const Hero = () => {
               imgSrc="/imgs/random/4.jpg"
               href="#"
             />
+          </div>
+        </div>
+        <div className="h-auto">
+          <div className="">
+            <div>
+              <h1 className=" md:my-10 lg:my-10 mx-auto max-w-5xl md:ml-10 lg:ml-10 sm:ml-0 my-10 text-black lg:text-8xl md:text-8xl sm:text-xl md:text-left lg:text-left sm:text-center "
+            onMouseEnter={projectEnter}
+            onMouseLeave={projectLeave}>
+                21bubbles.web<nav>@gmail.com</nav>
+              </h1>
+            </div>
           </div>
         </div>
         ?
