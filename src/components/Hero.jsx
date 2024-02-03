@@ -106,10 +106,10 @@ const Hero = () => {
           />
         </div>
         {/* serv */}
-        <div className="h-screen justify-center items-center text-black grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2">
+        <div className="md:h-screen lg:h-screen sm:h-auto justify-center items-center text-black grid grid-flow-row  sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2">
           <div>
             <h1
-              className="  text-7xl"
+              className="  text-7xl font-bold"
               onMouseEnter={projectEnter}
               onMouseLeave={projectLeave}
             >
