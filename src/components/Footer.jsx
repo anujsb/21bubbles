@@ -22,7 +22,7 @@ const Footer = () => {
               <li>Anuj Bhuyar</li>
             </ul>
 
-            <ul className="flex items-center space-x-3 mt-9">
+            {/* <ul className="flex items-center space-x-3 mt-9">
               <li>
                 <a
                   href="#"
@@ -59,7 +59,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/anuj_bhuyar/"
                   title=""
                   className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
                 >
@@ -96,7 +96,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div>
@@ -153,18 +153,18 @@ const Footer = () => {
 
           <div>
             <p className="text-sm font-semibold tracking-widest text-[#F2F2F2] uppercase">
-              Help
+              Socials
             </p>
 
             <ul className="mt-6 space-y-4">
               <li>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/anuj_bhuyar/"
                   title=""
                   className="flex text-base text-[#F2F2F2] transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Customer Support{" "}
+                  Instagram{" "}
                 </a>
               </li>
 
@@ -175,7 +175,7 @@ const Footer = () => {
                   className="flex text-base text-[#F2F2F2] transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Delivery Details{" "}
+                  GitHub{" "}
                 </a>
               </li>
 
@@ -234,7 +234,7 @@ const Footer = () => {
 
         {/* <hr className="mt-16 mb-10 border-gray-200" /> */}
 
-        <p className="text-xs text-center m-4 text-[#F2F2F2] ">
+        <p className="text-xs text-center mt-7 text-[#F2F2F2] ">
           © Copyright 2024, All Rights Reserved by 21bubbles
         </p>
         {/* <p className="text-sm text-center text-gray-600">Website by :)</p> */}

@@ -36,6 +36,15 @@ function App() {
             </div>
           }
         />
+        <Route 
+          path="/Contact"
+          element={
+            <div>
+              <Navbar/>
+              <Contact/>
+              <Footer/>
+            </div>
+          }/>
         {/* <Route
           path="/Services"
           element={

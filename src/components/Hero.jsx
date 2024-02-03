@@ -35,7 +35,7 @@ const Hero = () => {
   useEffect(() => {
     if (typedRef.current) {
       const options = {
-        strings: ["Websites.", "Chatbots.", "Automation."],
+        strings: ["Websites.", "Chatbots.", "Automations."],
         typeSpeed: 50, // typing speed in milliseconds
         backSpeed: 50, // backspacing speed in milliseconds
         loop: true, // loop the animation
@@ -71,7 +71,7 @@ const Hero = () => {
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
-            sometext
+            forthcoming
           </h1>
           <h1
             className="md:mx-10 lg:mx-10 sm:mx-0 title lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl"
@@ -84,11 +84,11 @@ const Hero = () => {
         <div className="flex justify-end mx-20 my-10">
           {/* desc */}{" "}
           <p
-            className="title w-min text-right "
+            className="title text-right text-xl "
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
-            some deta dfghjk fghjk <nav>EWZRXCTVYBNJKMERDTFGYUI </nav>
+            CRAFTING EXCEPTIONAL DIGITAL<br /> SOLUTIONS FOR  YOUR BRAND
           </p>
         </div>
         <div className="m-5">

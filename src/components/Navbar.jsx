@@ -114,7 +114,10 @@ const Navbar = () => {
         </ul> */}
 
         <div className="flex items-center lg:gap-4 md:gap-4 sm:gap-0 md:px-14 lg:px-14 sm:px-0">
-          <Link>
+          <Link 
+          to="/Contact"
+          role="button"
+          >
             <button className="text-2xl">Contact</button>
           </Link>
           {/* <Link to="/Services">
