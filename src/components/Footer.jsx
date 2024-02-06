@@ -4,10 +4,14 @@
 const Footer = () => {
   return (
     <section className="py-10 bg-neutral-800 shadow-inner sm:pt-16 lg:pt-10 md:pt-10 w-full">
-      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div className=" max-w-7xl">
         {/* <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12"> */}
-        <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
-          <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
+
+
+        {/* <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12"> */}
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 ">
+          {/* <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8"> */}
+          <div className="lg:pr-8">
             {/* <img
               src={"src/assets/21bubbles.svg"}
               alt="logo"
@@ -99,7 +103,7 @@ const Footer = () => {
             </ul> */}
           </div>
 
-          <div>
+          {/* <div>
             <p className="text-sm font-semibold tracking-widest text-[#F2F2F2] uppercase">
               Company
             </p>
@@ -149,9 +153,9 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <p className="text-sm font-semibold tracking-widest text-[#F2F2F2] uppercase">
               Socials
             </p>
@@ -201,9 +205,10 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
+          {/* <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8"> */}
+          <div className="lg:pl-8">
             <p className="text-sm font-semibold tracking-widest text-[#F2F2F2] uppercase">
               Let's talk
             </p>

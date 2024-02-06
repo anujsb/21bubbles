@@ -388,11 +388,11 @@ body.loading {
   max-width: 100%;
 }
 
-:root {
+/* :root {
   --move-initial: calc(-25%);
   --move-final: calc(-50%);
-  --layout-breakpoint-large: 1024px; /* Adjust as needed */
-}
+  --layout-breakpoint-large: 1024px; 
+} */
 
 .marquee {
   position: relative;
