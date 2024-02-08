@@ -33,7 +33,7 @@ function App() {
               {/* <Info2 /> */}
               {/* <Testimonial/> */}
               {/* <Contact path="/contact" /> */}
-              <Products/>
+              {/* <Products/> */}
               
               <Footer />
             </div>
