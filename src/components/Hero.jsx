@@ -67,14 +67,14 @@ const Hero = () => {
         <div className=" lg:mx-20 md:mx-20 sm:mx-5 my-28">
           {/* sometexts */}{" "}
           <h1
-            className=" title lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl "
+            className="text-black  lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl "
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
             forthcoming
           </h1>
           <h1
-            className="md:mx-10 lg:mx-10 sm:mx-0 title lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl"
+            className="text-black md:mx-10 lg:mx-10 sm:mx-0  lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl"
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
@@ -84,7 +84,7 @@ const Hero = () => {
         <div className="flex justify-end mx-20 my-10">
           {/* desc */}{" "}
           <p
-            className="title text-right text-xl "
+            className="text-black text-right text-xl "
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >

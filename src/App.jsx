@@ -9,6 +9,7 @@ import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
               {/* <Info2 /> */}
               {/* <Testimonial/> */}
               {/* <Contact path="/contact" /> */}
+              <Products/>
+              
               <Footer />
             </div>
           }
