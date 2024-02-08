@@ -240,7 +240,7 @@ const Footer = () => {
             <form ref={form} onSubmit={sendEmail} className="mt-6 content-center">
               <div>
                 {/* <label htmlFor="email" className="sr-only"> */}
-                <label htmlFor="email" className="sr-only">
+                <label>
                   Email
                 </label>
                 {/* <input type="email" name="email" id="email" placeholder="Enter your email" className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]" /> */}
@@ -248,7 +248,7 @@ const Footer = () => {
               </div>
 
               <button
-                type="submit"
+                type="submit" value="Send"
                 className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold hover:shadow-md hover:   text-[#F2F2F2] transition-all duration-200 bg-neutral-800 rounded-md border-[#F2F2F2] hover:bg-[#F2F2F2] hover:text-neutral-800 hover:border-neutral-800 focus:bg-zinc-400  border-b "
               >
                 Submit
