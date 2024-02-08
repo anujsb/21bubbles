@@ -1,6 +1,6 @@
 // import React from "react";
 // import { logo } from '../assets/images';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Footer = () => {
@@ -233,7 +233,7 @@ const Footer = () => {
           {/* <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8"> */}
           <div className="lg:pl-8">
             <p className="text-sm font-semibold tracking-widest text-[#F2F2F2] uppercase">
-              Let's talk
+              Lets talk
             </p>
 
             {/* <form action="#" method="POST" className="mt-6 content-center"> */}
