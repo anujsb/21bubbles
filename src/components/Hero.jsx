@@ -88,7 +88,8 @@ const Hero = () => {
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
-            CRAFTING EXCEPTIONAL DIGITAL<br /> SOLUTIONS FOR  YOUR BRAND
+            CRAFTING EXCEPTIONAL DIGITAL
+            <br /> SOLUTIONS FOR YOUR BRAND
           </p>
         </div>
         <div className="m-5">
@@ -141,18 +142,59 @@ const Hero = () => {
             />
           </div>
         </div>
+        {/* <div className="h-screen text-black">
+          <div
+            className="my-10"
+            onMouseEnter={projectEnter}
+            onMouseLeave={projectLeave}
+          >
+            <h1>Businesses We Transformed.</h1>
+          </div>
+          <div className="grid gap-5 grid-flow-col grid-cols-3 ">
+            <div
+              onMouseEnter={projectEnter}
+              onMouseLeave={projectLeave}
+              className=""
+            >
+              Digi
+            </div>
+            <div
+              onMouseEnter={projectEnter}
+              onMouseLeave={projectLeave}
+              className=""
+            >
+              ewew
+            </div>
+            <div
+              onMouseEnter={projectEnter}
+              onMouseLeave={projectLeave}
+              className=""
+            >
+              21Bubbl
+            </div>
+          </div>
+          <div
+            onMouseEnter={projectEnter}
+            onMouseLeave={projectLeave}
+            className=""
+          >
+            See more work ↵
+          </div>
+        </div> */}
         <div className="h-auto">
           <div className="">
             <div>
-              <h1 className=" md:my-10 lg:my-10 mx-auto max-w-5xl md:ml-10 lg:ml-10 sm:ml-0 my-10 text-black lg:text-8xl md:text-8xl sm:text-xl md:text-left lg:text-left sm:text-center "
-            onMouseEnter={projectEnter}
-            onMouseLeave={projectLeave}>
+              <h1
+                className=" md:my-10 lg:my-10 mx-auto max-w-5xl md:ml-10 lg:ml-10 sm:ml-0 my-10 text-black lg:text-8xl md:text-8xl sm:text-xl md:text-left lg:text-left sm:text-center "
+                onMouseEnter={projectEnter}
+                onMouseLeave={projectLeave}
+              >
                 21bubbles.web<nav>@gmail.com</nav>
               </h1>
             </div>
           </div>
         </div>
-        ?
+          
       </div>{" "}
       {/* useless */}
     </div>

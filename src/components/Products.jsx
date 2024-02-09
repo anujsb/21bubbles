@@ -2,14 +2,16 @@
 const Products = () => {
   return (
     <div className="h-screen text-black">
-      <div className="grid grid-flow-row grid-rows-4 ">
-        
-        <div className="grid grid-flow-col grid-cols-4 ">
-          <div className="col-span-2">1</div>
-          <div>2</div>
-          <div>3</div>
-          <div className="col-span-2">4</div>
-        </div>
+      <div>
+        <h1>Businesses We Transformed.</h1>
+      </div>
+      <div className="grid gap-4 grid-flow-col grid-cols-3 ">
+        <div className="">1</div>
+        <div className="">2</div>
+        <div className="">3</div>
+      </div>
+      <div className="">
+      See more work ↵
       </div>
     </div>
   );

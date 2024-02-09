@@ -45,7 +45,7 @@ const Footer = () => {
 
             <ul className="text-base leading-relaxed text-gray-200 mt-7">
               <li>+91 9021823841</li>
-              <li>anujsbhuyar@gmial.com</li>
+              <li>anujsbhuyar@gmail.com</li>
               <li>Anuj Bhuyar</li>
             </ul>
 
