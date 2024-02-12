@@ -71,7 +71,7 @@ const Hero = () => {
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
-            forthcoming
+            Evolutionary
           </h1>
           <h1
             className="text-black md:mx-10 lg:mx-10 sm:mx-0  lg:text-left md:text-left sm:text-center lg:text-9xl md:text-9xl"
@@ -84,12 +84,13 @@ const Hero = () => {
         <div className="flex justify-end mx-20 my-10">
           {/* desc */}{" "}
           <p
-            className="text-black text-right text-xl "
+            className="text-black text-right text-xl uppercase"
             onMouseEnter={projectEnter}
             onMouseLeave={projectLeave}
           >
-            CRAFTING EXCEPTIONAL DIGITAL
-            <br /> SOLUTIONS FOR YOUR BRAND
+            {/* CRAFTING EXCEPTIONAL DIGITAL
+             SOLUTIONS FOR YOUR BRAND */}
+            Boost Your Brand's Visibility <br/> with Customized Digital Solutions
           </p>
         </div>
         <div className="m-5">
@@ -124,19 +125,25 @@ const Hero = () => {
           >
             <Link
               heading="web design"
-              subheading="Learn what we do here"
+              // subheading="Learn what we do here"
               imgSrc="/imgs/random/11.jpg"
               href="#"
             />
             <Link
               heading="Chatbots"
-              subheading="We work with great people"
+              // subheading="We work with great people"
               imgSrc="/imgs/random/6.jpg"
               href="#"
             />
             <Link
               heading="Automation"
-              subheading="Our work speaks for itself"
+              // subheading="Our work speaks for itself"
+              imgSrc="/imgs/random/4.jpg"
+              href="#"
+            />
+            <Link
+              heading="Saas"
+              // subheading="Our work speaks for itself"
               imgSrc="/imgs/random/4.jpg"
               href="#"
             />
@@ -149,6 +156,7 @@ const Hero = () => {
             onMouseLeave={projectLeave}
           >
             <h1>Businesses We Transformed.</h1>
+            <p>We work with great people and our work speaks for itself.</p>
           </div>
           <div className="grid gap-5 grid-flow-col grid-cols-3 ">
             <div
@@ -189,7 +197,8 @@ const Hero = () => {
                 onMouseEnter={projectEnter}
                 onMouseLeave={projectLeave}
               >
-                21bubbles.web<nav>@gmail.com</nav>
+                {/* 21bubbles.web<nav>@gmail.com</nav>   */}
+                <a href="mailto:21bubbles.web@gmail.com">21bubbles.<br/> web@gmail.com</a>
               </h1>
             </div>
           </div>

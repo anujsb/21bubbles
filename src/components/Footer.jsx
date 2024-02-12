@@ -1,27 +1,25 @@
 // import React from "react";
 // import { logo } from '../assets/images';
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
-
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_nel4d6m', 'template_tj0pdys', form.current, {
-        publicKey: 'KN6YNb1y9srYpNYEO',
+      .sendForm("service_nel4d6m", "template_tj0pdys", form.current, {
+        publicKey: "KN6YNb1y9srYpNYEO",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          console.log("FAILED...", error.text);
+        }
       );
   };
 
@@ -29,7 +27,6 @@ const Footer = () => {
     <section className="py-10 bg-neutral-800 shadow-inner sm:pt-16 lg:pt-10 md:pt-10 w-full">
       <div className=" max-w-7xl">
         {/* <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12"> */}
-
 
         {/* <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12"> */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 ">
@@ -42,10 +39,18 @@ const Footer = () => {
             /> */}
 
             <h1 className="text-white">21bubbles</h1>
-
             <ul className="text-base leading-relaxed text-gray-200 mt-7">
-              <li>+91 9021823841</li>
-              <li>anujsbhuyar@gmail.com</li>
+              <li><p className="text-white">Reach out to us via email or phone:</p></li>
+              <li className="font-bold">+91 9021823841</li>
+              {/* <li><a href="mailto:anujsbhuyar@gmail.com"></a>anujsbhuyar@gmail.com</li> */}
+              <li>
+                <a
+                  className="text-gray-200"
+                  href="mailto:anujsbhuyar@gmail.com"
+                >
+                  anujsbhuyar@gmail.com
+                </a>
+              </li>
               <li>Anuj Bhuyar</li>
             </ul>
 
@@ -237,18 +242,26 @@ const Footer = () => {
             </p>
 
             {/* <form action="#" method="POST" className="mt-6 content-center"> */}
-            <form ref={form} onSubmit={sendEmail} className="mt-6 content-center">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="mt-6 content-center"
+            >
               <div>
                 {/* <label htmlFor="email" className="sr-only"> */}
-                <label>
-                  Email
-                </label>
+                <label>Email</label>
                 {/* <input type="email" name="email" id="email" placeholder="Enter your email" className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]" /> */}
-                <input type="email" name="user_email" placeholder="Enter your email" className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]" />
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Enter your email"
+                  className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]"
+                />
               </div>
 
               <button
-                type="submit" value="Send"
+                type="submit"
+                value="Send"
                 className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold hover:shadow-md hover:   text-[#F2F2F2] transition-all duration-200 bg-neutral-800 rounded-md border-[#F2F2F2] hover:bg-[#F2F2F2] hover:text-neutral-800 hover:border-neutral-800 focus:bg-zinc-400  border-b "
               >
                 Submit
@@ -260,7 +273,7 @@ const Footer = () => {
         {/* <hr className="mt-16 mb-10 border-gray-200" /> */}
 
         <p className="text-xs text-center mt-7 text-[#F2F2F2] ">
-          © Copyright 2024, All Rights Reserved by 21bubbles
+          &copy; Copyright 2024, All Rights Reserved by 21bubbles
         </p>
         {/* <p className="text-sm text-center text-gray-600">Website by :)</p> */}
       </div>
