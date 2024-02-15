@@ -249,7 +249,7 @@ const Footer = () => {
             >
               <div>
                 {/* <label htmlFor="email" className="sr-only"> */}
-                <label>Email</label>
+                {/* <label>Email</label> */}
                 {/* <input type="email" name="email" id="email" placeholder="Enter your email" className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]" /> */}
                 <input
                   type="email"
